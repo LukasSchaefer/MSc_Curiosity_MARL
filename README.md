@@ -16,7 +16,7 @@ This work contributes to understanding the impact of intrinsic rewards in challe
 
 --- 
 
-More information can be found in [the MSc dissertation](assets/thesis.pdf].
+More information can be found in the [MSc dissertation](docs/msc_thesis.pdf).
 
 <!-- requirements-->
 
