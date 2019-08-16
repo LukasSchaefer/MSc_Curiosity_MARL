@@ -149,17 +149,17 @@ def main(argv):
         maps = ["3m", "8m", "3s5z", "8m_vs_9m", "27m_vs_30m"]
         scenarios = [None] * len(maps)
 
-    algs = ["iql"]# ["maddpg", "iql"]
-    curs = [None] #None, "icm", "rnd", "count"]
-    joint_curiositys = [False]#[True, False]
+    algs = ["maddpg", "iql"]
+    curs = [None, "icm", "rnd", "count"]
+    joint_curiositys = [True, False]
     curiosity_state_rep_size = None
     count_key_dim = None
     etas = [5]
-    curiosity_lrs = [1e-5] #[2e-6]
-    seeds = [2, 3]
+    curiosity_lrs = [2e-6]
+    seeds = [1, 2, 3]
     dropout_ps = [0.0]
     partial_observable = False
-    sparse_rewards = True
+    sparse_rewards = False
     no_rewards = False
     no_exploration = False
 
