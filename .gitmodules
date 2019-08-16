@@ -1,0 +1,3 @@
+[submodule "multiagent-particle-envs"]
+	path = multiagent-particle-envs
+	url = https://github.com/LukasSchaefer/multiagent-particle-envs.git
