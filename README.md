@@ -34,18 +34,20 @@ More information can be found in [the MSc dissertation](assets/thesis.pdf].
 The general training structure is implemented in `train.py`. `mape_train.py` contains the specific code to train on the multi-agent particle envirionment.
 
 For information on all paramters, run
+
 ```
 python3 mape_train.py --help
-```.
+```
 
 <!-- evaluation -->
 ## Evaluation
 Similarly, the evaluation structure is implemented in `eval.py` with specific multi-agent particle environment evaluation found in `mape_eval.py`.
 
 For information on all paramters, run
+
 ```
 python3 mape_eval.py --help
-```.
+```
 
 The training and evaluation script mostly share parameters. The major difference are the generally deactived exploration in evaluation, activated rendering and added support to save animated gifs of evaluation runs (`--save_gifs`).
 
@@ -87,6 +89,7 @@ At the moment only the multi-agent particle environment is supported. Parameters
 ```
 python3 script_generator.py mape
 ```
+
 will generate a directory `mape` containing a subdirectory with jobscripts for each scenario as well as a central jobscript `mape/script.sh` which executes all scripts consecutively. Hence, only this script has to be executed to run all generated jobs.
 
 
